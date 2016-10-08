@@ -1,3 +1,8 @@
+## suggestions
+
+- Here's an example for the standard case (small to medium size plugin): [sensu-plugins-standard-example](standard-example/)
+
+## current plugin doc situation
 
 The following list has been put together manually according to this criteria:
 
