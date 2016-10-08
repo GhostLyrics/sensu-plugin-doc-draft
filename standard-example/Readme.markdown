@@ -1,4 +1,7 @@
-## Sensu-Plugins-Standard-Example
+## sensu-plugins-standard-example
+
+*Note: all lowercase*
+
 ## Functionality
 
 The standard-example measures your sox and check for bars fitting into foos.
@@ -19,7 +22,7 @@ Check disk capacity and inodes based upon the gem sys-filesystem.
 
 Checks that the bar currently fits into the foo.
 
-**parameters**:
+**parameters:**
 
 - none
 
@@ -27,11 +30,11 @@ Checks that the bar currently fits into the foo.
 
 Measures all values of sox in the example.
 
-**parameters**:
+**parameters:**
 
 - scheme: The scheme how to label your metrics
 
-**values**:
+**values:**
 
 - sox.disk_capacity: How many voxels currently fit into the sandbox. (unit: voxels)
 - sox.radiator_consumption: How many ions are shot into the radiator per second (unit: ions/second)
