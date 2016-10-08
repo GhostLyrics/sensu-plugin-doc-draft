@@ -62,10 +62,10 @@ check-first.rb --pattern "meh" --warning "7" --critical "9"
 sensu-install sensu-plugins-standard-example
 ```
 
-Additionally you need to have X, Y and possible Z installed, depending on your distribution. You might need a C/C++ compiler.
+Additionally you need to have X, Y and possibly Z installed, depending on your distribution. You might need a C/C++ compiler.
 
 *Note: Linking to a completely other page should be last resort, but that is only my opinion.*
 
 ## Notes
 
-*Note: Put here what **does not** fit into other sections. If nothing is here, delete the sections and don't leave other empty sections either.*
+*Note: Put here what* **does not** *fit into other sections. If nothing is here, delete the sections and don't leave other empty sections either.*
