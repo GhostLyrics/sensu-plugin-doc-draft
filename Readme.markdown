@@ -1,6 +1,7 @@
 ## suggestions
 
 - Here's an example for the standard case (small to medium size plugin): [sensu-plugins-standard-example](standard-example/)
+- Here's the example for large plugins (e.g. [aws][]): [sensu-plugins-large-example](large-example/)
 
 ## current plugin doc situation
 
