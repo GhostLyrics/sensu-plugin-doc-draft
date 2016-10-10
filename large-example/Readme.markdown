@@ -34,7 +34,7 @@ This suite of checks and metrics covers all your needs for technology/vendor Foo
 ## Installation
 
 ```plain
-sensu-install sensu-plugins-standard-example
+sensu-install --plugin sensu-plugins-standard-example
 ```
 
 Additionally you need to have X, Y and possibly Z installed, depending on your distribution. You might need a C/C++ compiler.
