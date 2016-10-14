@@ -18,14 +18,8 @@ This suite of checks and metrics covers all your needs for technology/vendor Foo
 [check-second.rb]: docs/check-second.markdown
 [metrics-third.rb]: docs/metrics-third.markdown
 
-*Note: the links go to `docs/CHECK_BASENAME.markdown`.*
-
-## Files
- * bin/check-first.rb
- * bin/check-second.rb
- * bin/metrics-third.rb
-
-*Note: no changes here.*
+*Note: the links go to `docs/CHECK_BASENAME.markdown`.*  
+*Note: this replaces the `files` section.*
 
 ## Usage
 

@@ -6,7 +6,8 @@
 
 The standard-example measures your sox and check for bars fitting into foos.
 
-*Note: Basically a one sentence summary that tells people arriving via search engines if they found what they are looking for.*
+*Note: Basically a one sentence summary that tells people arriving via search engines if they found what they are looking for.*  
+*Note: this obsoletes the `files` section.*
 
 ### check-first.rb
 
@@ -41,13 +42,6 @@ Measures all values of sox in the example.
 
 *Note: Short descriptions what is measured so that it's easy to understand what is measured if the plugin outputs a high amount of different, complex values*
 
-
-## Files
- * bin/check-first.rb
- * bin/check-second.rb
- * bin/metrics-third.rb
-
-*Note: no changes here.*
 
 ## Usage
 
