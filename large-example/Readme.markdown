@@ -39,6 +39,25 @@ If you wish to use `check-second.rb` you furthermore need to install ABZ.
 
 *Note: clearly state here if some checks/metrics have additional requirements.*
 
+### Configuration
+
+*Note: this section is optional and should be left out if not applicable.*
+
+In order to use the wobbler you need to configure it first by having a section similar to the following in your Sensu configuration, e.g. in `/etc/sensu/conf.d/handlers/wobbler.json`. You can learn more about how Sensu can be configured in the [Sensu Configuration Reference doc][config-doc].
+
+[config-doc]: https://sensuapp.org/docs/latest/reference/configuration.html
+
+```json
+{
+  "wobbler": {
+    "apikey": "1234abcdefg1234abcdefg",
+    "apiversion": "v1",
+    "room": "Ops",
+    "from": "Sensu"
+  }
+}
+```
+
 ## Notes
 
 *Note: Put here what* **does not** *fit into other sections. If nothing is here, delete the sections and don't leave other empty sections either.*

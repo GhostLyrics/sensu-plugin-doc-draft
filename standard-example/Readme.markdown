@@ -53,6 +53,7 @@ check-first.rb --pattern "meh" --warning "7" --critical "9"
 
 *Note: Prefer long parameters due to readibility*
 
+
 ## Installation
 
 ```plain
@@ -62,6 +63,25 @@ sensu-install --plugin sensu-plugins-standard-example
 Additionally you need to have X, Y and possibly Z installed, depending on your distribution. You might need a C/C++ compiler.
 
 *Note: Linking to a completely other page should be last resort, but that is only my opinion.*
+
+### Configuration
+
+*Note: this section is optional and should be left out if not applicable.*
+
+In order to use the wobbler you need to configure it first by having a section similar to the following in your Sensu configuration, e.g. in `/etc/sensu/conf.d/handlers/wobbler.json`. You can learn more about how Sensu can be configured in the [Sensu Configuration Reference doc][config-doc].
+
+[config-doc]: https://sensuapp.org/docs/latest/reference/configuration.html
+
+```json
+{
+  "wobbler": {
+    "apikey": "1234abcdefg1234abcdefg",
+    "apiversion": "v1",
+    "room": "Ops",
+    "from": "Sensu"
+  }
+}
+```
 
 ## Notes
 
