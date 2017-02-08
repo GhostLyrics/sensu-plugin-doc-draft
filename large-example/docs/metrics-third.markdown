@@ -10,8 +10,8 @@ Measures all values of sox in the example.
 
 **values:**
 
-- `sox.disk_capacity`: How many voxels currently fit into the sandbox. (unit: voxels)
-- `sox.radiator_consumption`: How many ions are shot into the radiator per second (unit: ions/second)
+- `sox.disk_capacity`: How many voxels currently fit into the sandbox. (voxels)
+- `sox.radiator_consumption`: How many ions are shot into the radiator per second (ions/second)
 
 *Note: Short descriptions what is measured so that it's easy to understand what is measured if the plugin outputs a high amount of different, complex values*
 
