@@ -6,7 +6,7 @@ Measures all values of sox in the example.
 
 **parameters:**
 
-- `scheme`: The scheme how to label your metrics
+- `-s SCHEME, --scheme SCHEME`: The scheme how to label your metrics
 
 **values:**
 
